@@ -43,7 +43,7 @@ Built alongside Hair Coaction
 
 🛠️ Tech Stack
 
-- Frontend: HTML, CSS, JavaScript, Google Fonts, React
+- Frontend: HTML, CSS, JavaScript, Google Fonts
 - Backend: Node.js, Express.js  
 - Real-Time: Socket.io  
 - Templating: EJS
