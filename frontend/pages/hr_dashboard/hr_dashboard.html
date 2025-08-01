@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HR Dashboard</title>
+  <link rel="stylesheet" href="hr_dashboard.css" />
+</head>
+<body>
+  <div class="main-content">
+    <h1 class="dashboard-title">HR Dashboard</h1>
+
+    <!-- Team Listing -->
+    <section class="team-listing">
+      <h2 class="section-heading">Team Listing</h2>
+      <div class="card-grid" id="teamCards">
+        <!-- Cards will be dynamically inserted by JS -->
+      </div>
+    </section>
+
+    <!-- Intern Panel -->
+    <section class="intern-panel">
+      <h2 class="section-heading">Intern Panel</h2>
+      <table class="styled-table" id="internTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Status</th>
+            <th>Progress</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Filled by JS -->
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <script src="hr_dashboard.js"></script>
+</body>
+</html>
